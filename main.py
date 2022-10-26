@@ -2,7 +2,6 @@ import uvicorn
 from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
-import asyncio
 
 #ML Pkg
 import textstat 
